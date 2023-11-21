@@ -1,0 +1,15 @@
+.banner.img{
+    width: 100vw;
+    height: 280px;
+}
+
+.carousel{
+    margin-top: 10;
+}
+
+@media(max-width){
+    .banner.img{
+        object-fit: cover;
+        height: 180px;
+    }
+}
